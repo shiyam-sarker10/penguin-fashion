@@ -23,8 +23,27 @@
     <body>
         <!-- header section start   -->
 
-        <header class="bg-amber-50 py-20 px-4 md:px-32">
-            <div class="flex flex-col md:flex-row justify-between items-center">
+        <header class="bg-amber-50 pt-10 pb-20 px-4 md:px-16 lg:px-32">
+            <!-- nav section start   -->
+            <nav class="mb-5">
+                <!-- navigation container -->
+                <div class="flex flex-col space-y-12 md:space-y-0 md:flex-row items-center justify-between">
+                    <!-- logo  -->
+                    <div>
+                        <img class="w-48 md:w-56 lg:w-72" src="./icons/logo.png" alt="">
+                    </div>
+                    <!-- nav menu  -->
+                    <div class=" flex flex-col text-center font-medium space-y-4 md:space-y-0 md:flex-row md: md:space-x-7 lg:space-x-14 capitalize list-none text-[#3C3C3C] font-roboto md:text-sm lg:text-base">
+                        <li>home</li>
+                        <li>products</li>
+                        <li>about us</li>
+                        <li>contact us</li>
+                    </div>
+                </div>
+            </nav>
+            <!-- nav section end    -->
+            <!-- banner section  -->
+            <div class="flex flex-col mt-28 md:mt-0 md:flex-row justify-between items-center">
                 <div class="space-y-2">
                     <h1 class="text-[#363958] text-7xl uppercase font-bebas">
                         <span class="text-[#FABE4C]">Be the Penguins</span> <br />
@@ -40,7 +59,7 @@
                         buy now
                     </button>
                 </div>
-                <div>
+                <div class="mt-8 md:mt-0">
                     <img src="./images/model.png" alt="" />
                 </div>
             </div>
